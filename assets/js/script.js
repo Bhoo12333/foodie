@@ -28,7 +28,7 @@ for (let i = 0; i < navbarLinks.length; i++) {
  * header sticky & back to top
  */
 
-const header = document.querySelector("[data-header]");
+/*const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
 
 window.addEventListener("scroll", function () {
@@ -39,7 +39,7 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
     backTopBtn.classList.remove("active");
   }
-});
+});*/
 
 
 
@@ -67,7 +67,7 @@ for (let i = 0; i < searchBoxElems.length; i++) {
  * move cycle on scroll
  */
 
-const deliveryBoy = document.querySelector("[data-delivery-boy]");
+/*const deliveryBoy = document.querySelector("[data-delivery-boy]");
 
 let deliveryBoyMove = -80;
 let lastScrollPos = 0;
@@ -89,4 +89,4 @@ window.addEventListener("scroll", function () {
     deliveryBoy.style.transform = `translateX(${deliveryBoyMove}px)`;
   }
 
-});
+});*/
